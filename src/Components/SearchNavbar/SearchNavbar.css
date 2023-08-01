@@ -1,0 +1,8 @@
+.navItem {
+  color: rgb(255, 255, 255); /* Default font color */
+}
+
+.navItem:hover {
+  color: rgb(218, 211, 211); /* Font color on hover */
+  cursor: pointer;
+}

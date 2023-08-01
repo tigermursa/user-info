@@ -1,4 +1,13 @@
 #root {
   margin: 0 auto;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(35, 35, 35, 0.5),
+      rgba(22, 21, 21, 0.5)
+    ),
+    url(/public/background-image.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }

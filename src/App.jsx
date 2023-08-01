@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Button } from "react-bootstrap";
 import SearchNavbar from "./Components/SearchNavbar/SearchNavbar";
+import UserList from "./Components/SearchNavbar/UserList/UserList";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <>
       <div>
         <SearchNavbar />
+        <UserList/>
       </div>
     </>
   );
