@@ -24,4 +24,4 @@ React Js
 Axios
 Bootstrap
 
-Live site link :
+Live site link : https://64c9bb5c5bf3964e73cf2cb2--sprightly-cupcake-31e840.netlify.app/
