@@ -17,10 +17,10 @@ const UserList = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  // const [currentPage, setCurrentPage] = useState(1);
-  // const [searchQuery, setSearchQuery] = useState("");
-  // const [filteredUsers, setFilteredUsers] = useState([]);
-  // const [selectedUser, setSelectedUser] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredUsers, setFilteredUsers] = useState([]);
+  const [selectedUser, setSelectedUser] = useState(null);
 
   // FETCHING THE API USING AXIOS ....
   useEffect(() => {
